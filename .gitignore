@@ -1,0 +1,22 @@
+# a comment - this is ignored
+# ignore the root test.rb
+/test.rb
+
+#example-------------------------------------------------------------
+
+#ex: but do track lib.a, even though you're ignoring .a files above
+#!lib.a
+
+#ex: only ignore the root TODO file, not subdir/TODO
+#/TODO
+
+#ex: ignore all files in the build/ directory
+#build/
+
+#ex: ignore doc/notes.txt, but not doc/server/arch.txt
+#doc/*.txt
+
+#ex: ignore all .txt files in the doc/ directory
+#doc/**/*.txt
+
+#example-------------------------------------------------------------
