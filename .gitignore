@@ -1,7 +1,7 @@
 # a comment - this is ignored
 # ignore the root test.rb
 /test.rb
-
+/.DS_Store
 #example-------------------------------------------------------------
 
 #ex: but do track lib.a, even though you're ignoring .a files above
