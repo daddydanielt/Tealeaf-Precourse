@@ -49,15 +49,15 @@ contact_data = [["joe@email.com", "123 Main st.", "555-123-4567"],
 contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 
 contacts.each do |k,v|
-	name=k.split.first	
-	contact_data.each do |v|
-	
-		if v[0].split("@").first.upcase==name.upcase			
-			contacts[k][:mail]= v[0]
-			contacts[k][:address]=v[1]
-			contacts[k][:phone]=v[2]
-		end
-	end
+  name=k.split.first  
+  contact_data.each do |v|
+  
+    if v[0].split("@").first.upcase==name.upcase      
+      contacts[k][:mail]= v[0]
+      contacts[k][:address]=v[1]
+      contacts[k][:phone]=v[2]
+    end
+  end
 end
 
 puts contacts
@@ -76,18 +76,18 @@ contact_data = [["joe@email.com", "123 Main st.", "555-123-4567"],
 contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 
 contacts.each do |k,v|
-	t_fields=fields
-	name=k.split.first	
-	contact_data.each do |v|	
-		if v.first.split("@").first.upcase==name.upcase					
-			t_fields.each do |f|
-				#(contacts[k])[f]= v.shift
-				#p contacts[k]
-				contacts[k][f]=t_fields.shift
-			end			
+  t_fields=fields
+  name=k.split.first  
+  contact_data.each do |v|  
+    if v.first.split("@").first.upcase==name.upcase         
+      t_fields.each do |f|
+        #(contacts[k])[f]= v.shift
+        #p contacts[k]
+        contacts[k][f]=t_fields.shift
+      end     
 
-		end
-	end
+    end
+  end
 end
 
 puts contacts
