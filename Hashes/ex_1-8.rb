@@ -29,3 +29,38 @@ person[:name]
 person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 p person.value?("Bob")? "Yes" : "No"
 
+#ex_6
+words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
+          'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
+          'flow', 'neon']
+
+def Anagrams(words)          
+  r={}
+  words.each do |v|
+    key=v.chars.sort.join
+    if r.has_key?(key) == true
+      r[key]<<v
+    else
+      r[key]=Array([v])
+    end
+  end
+  r
+end
+
+Anagrams(words).each_value {|v| p v}
+
+ 
+#ex_7
+x = "hi there"
+my_hash = {x: "some value"}
+my_hash2 = {x => "some value"}
+
+ans: 
+my_hash with symbol 'x' as key.
+my_hash2 with symbol 'hi there' as key.
+
+#ex_8
+NoMethodError: undefined method `keys' for Array
+
+ans:
+B. There is no method called keys for Array objects.
