@@ -17,5 +17,3 @@ def Anagrams(words)
 end
 
 Anagrams(words).each_value {|v| p v}
-
- 
