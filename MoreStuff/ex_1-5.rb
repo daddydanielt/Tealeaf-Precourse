@@ -8,7 +8,7 @@ a=["laboratory",
 pattern="lab"
 a.each do |v|
   if (v =~ /lab/)
-  	puts " 'lab' exists in the '#{v}'. "
+    puts " 'lab' exists in the '#{v}'. "
   end
 end
 

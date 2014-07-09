@@ -1,6 +1,6 @@
 begin
-	puts "How old are you? "
-	age=gets.chomp
+  puts "How old are you? "
+  age=gets.chomp
 
   isNumeric = ( Float(age) != nil) rescue false
   tryAgain=!isNumeric
