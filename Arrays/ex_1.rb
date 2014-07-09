@@ -4,7 +4,7 @@ number = 30
 r= arr.select {|n| n==number}  
 
 if(r.size==0)
-	p "[#{number}] is not in the arr#{arr}"
+  p "[#{number}] is not in the arr#{arr}"
 else
-	p "[#{number}] is in the arr#{arr}"
+  p "[#{number}] is in the arr#{arr}"
 end
