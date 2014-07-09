@@ -1,6 +1,4 @@
-
-def numberRange(n)
-	
+def numberRange(n)	
 	case 
 	when (n<0)
 		"Please don't give me the negative number."  
@@ -11,7 +9,6 @@ def numberRange(n)
 	else (n>100)
 		"#{n} is above 100"
 	end
-
 end
 
 puts "Input a number."

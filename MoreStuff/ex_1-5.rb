@@ -1,5 +1,3 @@
------------------------------------------->>
-
 #ex_1
 a=["laboratory",
 "experiment",
@@ -21,21 +19,15 @@ ans: Nothing will be printed to the screen. Because it need ".call" method to ac
 ans: Exception handling is used to avoid error to interrupt the program.
 
 # ex_4
-
 def execute(&block)
   #block
   block.call # avtive the 'call' method.
 end
-
 execute { puts "Hello from inside the execute method!" }
 
 # ex_5
-
 ans: '&argument_name' is the format of method parameter. 
      
-
-
------------------------------------------->>
 
 
 

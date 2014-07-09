@@ -1,14 +1,14 @@
-# ex_1
+#ex_1
 puts "Daniel "+"Tseng"
 
-# ex_2
+#ex_2
 the_4_digit_n=5678
 thousands_n= the_4_digit_n/1000
 hunderds_n= the_4_digit_n%1000/100
 tens_n= the_4_digit_n%1000%100/10
 ones_n= the_4_digit_n%1000%100%10
 
-# ex_3
+#ex_3
 movie_titles= { jaw: 1975,
 	anchorman: 2004,
 	america: 2014,
@@ -17,11 +17,11 @@ movie_titles= { jaw: 1975,
 
 movie_titles.each {|k,v| puts v}
 
-# ex_4
+#ex_4
 movie_dates= [1975, 2004, 2014, 2013, 2012]
 movie_dates.map {|v| puts v}
 
-# ex_5
+#ex_5
 def factorial(n)
 	answer= 1
 	t= n

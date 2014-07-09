@@ -1,4 +1,3 @@
-
 def numberRange(n)
 	if (n<0)
 		"Please don't give me the negative number."  
