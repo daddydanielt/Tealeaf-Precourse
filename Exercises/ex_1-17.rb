@@ -51,7 +51,6 @@ contacts = {"Joe Smith" => {}, "Sally Johnson" => {}}
 contacts.each do |k,v|
   name=k.split.first  
   contact_data.each do |v|
-  
     if v[0].split("@").first.upcase==name.upcase      
       contacts[k][:mail]= v[0]
       contacts[k][:address]=v[1]
@@ -85,7 +84,6 @@ contacts.each do |k,v|
         #p contacts[k]
         contacts[k][f]=t_fields.shift
       end     
-
     end
   end
 end
